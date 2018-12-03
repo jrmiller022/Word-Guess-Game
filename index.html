@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="reset.css">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/javascript/game.js"></script>
     <title>Word Guess Game</title>
 </head>
 <body>
   
-        <!--Main Heading-->
     <div class="heading">
         <h1>Fruits Word Guess Game!</h1>
     </div>
@@ -18,19 +18,17 @@
     <div class="background">
         <div class="container">
 
-            <!--Changing Image based on correct answers-->
-           
             <div>
                 <img src="/assets/images/funny fruit.jpg" alt="fruit" height="400px" width="600px">
             </div>
-                <h2>Press Any Key To Get Started!</h2>
+               
+            <h2>Press Any Key To Get Started!</h2>
 
-            <!--Current Word Container-->
             <div>
                 <h3 id="currentword">_ _ _ _ _</h3>
             </div>
             <div id="scoreboard">
-                <!--Guesses left Container-->
+        
                 <div class="sidebar">
                     <h3>GUESSES LEFT:
                         <span id="guessesremaining"></span>
