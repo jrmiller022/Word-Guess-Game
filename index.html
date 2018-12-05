@@ -1,61 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="assets/css/reset.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <script src="assets/javascript/game.js"></script>
-    <title>Word Guess Game</title>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="assets/css/reset.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<script src="assets/javascript/game.js">
+	</script>
+	<title>Word Guess Game</title>
 </head>
 <body>
-  
-    <div class="heading">
-        <h1>Fruits Word Guess Game!</h1>
-    </div>
-
-    <div class="background">
-        <div class="container">
-
-            <div>
-                <img src="/assets/images/funny fruit.jpg" alt="fruit" height="400px" width="600px">
-            </div>
-               
-            <h2>Press Any Key To Get Started!</h2>
-
-            <div>
-                <h3 id="currentword">_ _ _ _ _</h3>
-            </div>
-            <div id="scoreboard">
-        
-                <div class="sidebar">
-                    <h3>GUESSES LEFT:
-                        <span id="guessesremaining"></span>
-                    </h3>
-                </div>
-
-                <!--Wins counter Container-->
-                <div class="sidebar">
-                    <h3>WINS:
-                        <span id="winstracker"></span>
-                    </h3>
-                </div>
-                <!--Loss counter Container-->
-                <div class="sidebar">
-                    <h3>LOSSES:
-                        <span id="losstracker"></span>
-                    </h3>
-                </div>
-
-                <!--Wrong guesses container-->
-                <div class="sidebar">
-                    <h3>LETTERS YOU GUESSED WRONG:
-                        <span id="playerguesses"></span>
-                    </h3>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="heading">
+		<h1>Fruits Word Guess Game!</h1>
+	</div>
+	<div class="background">
+		<div class="container">
+			<div><img alt="fruit" height="400px" src="/assets/images/funny%20fruit.jpg" width="600px"></div>
+			<h2>Press Any Key To Get Started!</h2>
+			<div>
+				<h3 id="currentword">_ _ _ _ _</h3>
+			</div>
+			<div id="scoreboard">
+				<div class="sidebar">
+					<h3>GUESSES LEFT: <span id="guessesremaining"></span></h3>
+				</div>
+				<div class="sidebar">
+					<h3>WINS: <span id="winstracker"></span></h3>
+				</div>
+				<div class="sidebar">
+					<h3>LOSSES: <span id="losstracker"></span></h3>
+				</div>
+				<div class="sidebar">
+					<h3>LETTERS YOU GUESSED WRONG: <span id="playerguesses"></span></h3>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
