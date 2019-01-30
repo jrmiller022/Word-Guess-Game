@@ -23,7 +23,7 @@ function Game() {
     console.log(names);
 
     //split the words into seperate arrays
-    lettersOfWords = randomWords.split("_");
+    lettersOfWords = randomWords.split(" _ ");
 
     //stored blank words
     blanks = lettersOfWords.length;
